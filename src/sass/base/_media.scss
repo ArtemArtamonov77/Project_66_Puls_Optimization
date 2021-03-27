@@ -1,4 +1,5 @@
 @media (max-width:1400px) {
+    /* Отлючаем анимацию на вс1м что меньше 1400 */
     .animated {
 		/*CSS transitions*/
 		-o-transition-property: none !important;
