@@ -1,0 +1,31 @@
+.reviews {
+    .title {
+        margin-bottom: 65px;
+        padding-bottom: 71px;
+    }
+    &__block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__text-block {
+        margin-left: 62px;
+        padding-right: 60px;
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #0d0d0d;
+        h3 {
+            font-size: 18px;
+            line-height: 1.2;
+            font-weight: 700;
+            color: #0d0d0d;
+        }
+        h4 {
+            font-size: 14px;
+            line-height: 1.2;
+            font-weight: 300;
+            color: #646464;
+        }
+    }
+}

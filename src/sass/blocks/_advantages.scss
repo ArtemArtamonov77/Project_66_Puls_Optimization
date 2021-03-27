@@ -1,0 +1,50 @@
+.advantages {
+    padding: 69px 0 78px;
+    background-color: #f6f5f5;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__block {
+        width: 242px;
+        margin-top: 63px;
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 35px;
+        }
+    }
+    &__text-block {
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #0d0d0d;
+        text-align: center;
+        h3 {
+            font-size: 18px;
+            line-height: 1.2;
+            font-weight: 700;
+            color: #0d0d0d;
+            margin-bottom: 25px;
+        }
+        a {
+            text-decoration: underline;
+            color: #ff0000;
+        }
+    }
+    /* способ анимации вручную */
+    &__icon {
+        &_animated {
+            animation-name: heartbeat;
+            /* время анимации */
+            /* animation-duration: 1.3s; */
+            /* animation-timing-function: ease; *//* Временная функция */
+            /* animation-iteration-count: infinite; */ /* Повтор анимации - бесконечно */
+            &:hover {
+                animation-play-state: paused;
+            }
+            /* все свойства анимации можно записать кратко в одну строчку */
+            animation: heartbeat 1.3s ease infinite;
+        }
+    }
+}

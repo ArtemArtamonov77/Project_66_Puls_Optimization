@@ -1,0 +1,12 @@
+@mixin btn_hover {
+    &:hover {
+      background-color: #df1d1d;
+      box-shadow: 1px 1px 10px #361818;
+    }
+}
+@mixin social-icon_hover {
+    &:hover {
+        background-color: #df1d1d;
+        box-shadow: 1px 1px 10px #361818;
+      }
+}
