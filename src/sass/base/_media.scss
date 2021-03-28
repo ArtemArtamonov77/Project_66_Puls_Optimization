@@ -1,25 +1,25 @@
 @media (max-width:1400px) {
-    /* Отлючаем анимацию на вс1м что меньше 1400 */
-    .animated {
+    /* Отлючаем анимацию на всём что меньше 1400 */
+    //.animated {
 		/*CSS transitions*/
-		-o-transition-property: none !important;
+	/* 	-o-transition-property: none !important;
 		-moz-transition-property: none !important;
 		-ms-transition-property: none !important;
 		-webkit-transition-property: none !important;
-		transition-property: none !important;
+		transition-property: none !important; */
 		/*CSS transforms*/
-		-o-transform: none !important;
+		/* -o-transform: none !important;
 		-moz-transform: none !important;
 		-ms-transform: none !important;
 		-webkit-transform: none !important;
-		transform: none !important;
+		transform: none !important; */
 		/*CSS animations*/
-		-webkit-animation: none !important;
+		/* -webkit-animation: none !important;
 		-moz-animation: none !important;
 		-o-animation: none !important;
 		-ms-animation: none !important;
-		animation: none !important;
-	}
+		animation: none !important; */
+	//}
 }
 @media (max-width:1200px) {
     .carousel {
